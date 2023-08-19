@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;700&family=Roboto+Mono:ital@1&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: auto;
+    background-color: #FF9933;
+    width: 350px;
+    height: 520px;
+    border: 5px solid #000080;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 10px 5px #3498DB;
+}
+
+.row .heading {
+    margin: 0px;
+    font-family: 'Permanent Marker', cursive;
+    color: #000080;
+    font-size: 40px;
+    text-shadow: 3px 3px #3498DB;
+}
+
+.button {
+    width: 66px;
+    padding: 15px;
+    margin: 0 3px;
+    border: 2px solid #000080;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #138808;
+    color: white;
+}
+.button:hover{
+    background-color: #2ECC71;
+    color: #000080;
+}
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 285px;
+    font-size: 25px;
+    padding: 10px 3px;
+    border: 2px solid #000080;
+    border-radius: 5px;
+    background-color: #AED6F1;
+}
+
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 320px;
+        height: 480px;
+    }
+    .button{
+        padding: 10px;
+        margin: 0 2px;
+    }
+    .row input{
+        width: 272px;
+    }
+}
